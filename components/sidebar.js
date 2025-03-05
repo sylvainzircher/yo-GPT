@@ -98,7 +98,7 @@ const Sidebar = () => {
               </div>
             </div>
             <div className="m-5 overflow-y-auto h-full">
-              {gpts.length > 0 && (
+              {gpts?.length > 0 && (
                 <div className="mb-4 ">
                   <p className="text-md font-bold mb-1">Your custom GPTs</p>
                   {gpts.map((gpt, index) => (
@@ -146,7 +146,7 @@ const Sidebar = () => {
                   ))}
                 </div>
               )}
-              {chats.length < 1 && (
+              {chats?.length < 1 && (
                 <p className="w-full pl-2 pr-2 text-xs">
                   Your conversations will appear here once you start chatting!
                 </p>

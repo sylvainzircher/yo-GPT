@@ -3,5 +3,5 @@
   "temperature": "85",
   "maxTokens": 60000,
   "autoSave": true,
-  "autoTitle": false
+  "autoTitle": true
 }

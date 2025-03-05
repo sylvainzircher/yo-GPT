@@ -61,8 +61,8 @@ export default function MessageInput({
       setGptRetrieved(gpt);
     }
 
-    // Update hasStarted when messages exist
-    if (messages.length > 0) {
+    // Update hasStarted when convo id exist
+    if (uid) {
       setHasStarted(chatLoaded);
     }
 
@@ -71,7 +71,7 @@ export default function MessageInput({
       setTotalUsageTk(usage[0].totalTokens);
       setTotalUsageAmount(usage[1].totalTokensAmount);
     }
-  }, [gpt, gptById, messages, chatLoaded, uid, usage]);
+  }, [gpt, gptById, chatLoaded, uid, usage]);
 
   const handleKeyDown = async (e) => {
     if (e.key === "Enter" && !e.shiftKey) {
