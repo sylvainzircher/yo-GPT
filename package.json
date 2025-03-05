@@ -1,0 +1,42 @@
+{
+  "name": "your-own-gpt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.1.9",
+    "@nanostores/react": "github:ai/react",
+    "@tremor/react": "^3.18.7",
+    "ai": "^4.1.16",
+    "crypto": "^1.0.1",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.3.1",
+    "lowdb": "^7.0.1",
+    "lucide-react": "^0.474.0",
+    "next": "15.1.6",
+    "path": "^0.12.7",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.3",
+    "recharts": "^2.15.1",
+    "rehype-raw": "^7.0.0",
+    "rehype-sanitize": "^6.0.0",
+    "remark-gfm": "^4.0.0",
+    "sonner": "^1.7.4",
+    "swr": "^2.3.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "daisyui": "^4.12.23",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
